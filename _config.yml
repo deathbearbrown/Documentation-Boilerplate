@@ -1,0 +1,44 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: Solid Community Design
+description: "A Jekyll theme for documentation & design assets"
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://deathbearbrown.github.io/Solid-Community-Jekyll"
+github: "https://github.com/deathbearbrown/Solid-Community-Jekyll"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+kramdown:
+  syntax_highlighter: rouge
+
+colors:  #in hex code if not noted else
+  primary: "#929496" #"#F70031"
+  primary_rgb: "146, 148, 150" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#55498D" #"#33004D"
+  link: "#CDA646"
+  link_hover: "#CDA646"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: github
+    url: "https://github.com/deathbearbrown/Solid-Community-Jekyll"
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Based off the Solid-Jekyll theme, this is a boilerplate for github pages sites. Using JSDocs and example design assets, you can create a site for your open source project that promotes community involvement for developers and designers."
+
+### Branding ###
+logo: 'logo.png'
+logo_link: '/'
+application_screenshot: 'application-screenshot.png'
+main_header: 'Github Pages Boilerplate'
+main_subhead: 'document design and code'
